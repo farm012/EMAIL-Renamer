@@ -1,19 +1,14 @@
 # Python
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
+
+# Virtual environments
 .venv/
 venv/
 
-# PyInstaller build artifacts
-build/
-dist/
-*.spec
+# PyCharm
+.idea/
 
-# Generated output (do not commit real client emails or run output)
-conversion_log.csv
-tests/sandbox/
-
-# OS junk
+# OS files
 .DS_Store
 Thumbs.db

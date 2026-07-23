@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# PyInstaller build artifacts
+build/
+dist/
+*.spec
+
+# Generated output (do not commit real client emails or run output)
+conversion_log.csv
+tests/sandbox/
+
+# OS junk
+.DS_Store
+Thumbs.db

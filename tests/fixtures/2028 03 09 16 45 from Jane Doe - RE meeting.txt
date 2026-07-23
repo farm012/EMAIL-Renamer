@@ -1,0 +1,8 @@
+From: Jane Doe <jane.doe@example.com>
+To: John Doe <john.doe@example.com>
+Subject: RE: meeting
+Date: Thu, 09 Mar 2028 16:45:00 -0500
+
+Sure, 3pm works for me. See you then.
+
+Jane

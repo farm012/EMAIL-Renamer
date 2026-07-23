@@ -1,24 +1,3 @@
-#!/usr/bin/env python3
-"""
-email_renamer_web.py
-
-A user-friendly local web page for renaming and converting .eml/.msg files.
-No Tkinter, no wxPython, no external GUI library at all -- just Python's
-built-in http.server, opened in whatever browser is already installed.
-
-How to use:
-    1. Double-click this file (or run: python email_renamer_web.py)
-    2. Your default browser opens automatically to a simple page
-    3. Paste the folder path containing your emails
-    4. Click "Run"
-    5. Watch the results appear on the page
-
-Requirements:
-    pip install extract-msg
-    (everything else -- the web page itself -- uses only the Python
-    standard library, so there is nothing else to install or configure.)
-"""
-
 import os
 import io
 import json

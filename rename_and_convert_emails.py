@@ -1,24 +1,3 @@
-#!/usr/bin/env python3
-"""
-rename_and_convert_emails.py
-
-Renames .eml / .msg files based on their Date / Sender / Subject, and
-converts each one to a plain-text (.txt) version.
-
-Usage:
-    python rename_and_convert_emails.py "C:/path/to/your/email/folder"
-
-If no path is given, it uses the current directory.
-
-Output naming pattern:
-    YYYY MM DD HH MM from <Sender Name> - <Subject>.msg
-    YYYY MM DD HH MM from <Sender Name> - <Subject>.txt
-
-Requirements:
-    pip install extract-msg
-    (the 'email' module used for .eml files is part of the Python standard library)
-"""
-
 import sys
 import os
 import re
@@ -324,7 +303,6 @@ def process_directory(directory: str, do_rename: bool = True, do_convert: bool =
     log_func("Done.")
 
 
-# ---------- entry point ----------
 
 if __name__ == "__main__":
     target_dir = sys.argv[1] if len(sys.argv) > 1 else "."
